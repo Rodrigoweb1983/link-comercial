@@ -62,8 +62,8 @@ body {
 /* Estilos específicos para telas maiores que 768px e maiores que 900px de largura e 900px de altura */
 @media screen and (min-width: 769px) and (min-width: 900px) and (min-height: 900px) {
   .imagem {
-    max-width: 900px;
-    width: 100%;
+    max-width: 100%; /* Ajusta a largura máxima da imagem para 100% da tela */
+    width: 100%; /* Faz a imagem ocupar 100% da largura do contêiner */
     margin: 0 auto 10px;
   }
   .meu-botao {
@@ -78,5 +78,3 @@ body {
     padding: 10px; /* Adiciona padding de 10px */
   }
 }
-
-
