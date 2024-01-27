@@ -53,10 +53,10 @@ body {
   }
 }
 
-/* Estilos específicos para telas maiores que 768px */
-@media screen and (min-width: 769px) {
+/* Estilos específicos para telas maiores que 768px e maiores que 900px de largura e 900px de altura */
+@media screen and (min-width: 769px) and (min-width: 900px) and (min-height: 900px) {
   .imagem {
-    max-width: 1400px; /* Ajusta a largura máxima da imagem para 1400px em telas maiores */
+    max-width: 900px; /* Ajusta a largura máxima da imagem para 900px em telas maiores que 900px de largura e 900px de altura */
     width: 100%; /* Faz a imagem ocupar 100% da largura do contêiner */
     margin: 0 auto 10px; /* Centraliza a imagem horizontalmente e adiciona uma margem inferior de 10px */
   }
@@ -64,3 +64,4 @@ body {
     width: 543px; /* Mantém a largura do botão fixa em telas maiores */
   }
 }
+
