@@ -30,7 +30,7 @@ body {
   height: auto;
   max-width: calc(100% - 20px); /* Ajusta a largura máxima da imagem para considerar o padding do body */
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin: auto; /* Centraliza verticalmente na tela */
 }
 
 /* Estilo do botão */
