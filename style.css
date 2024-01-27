@@ -23,6 +23,7 @@ body {
   width: 100%;
   height: auto; /* Isso garante que a altura seja ajustada proporcionalmente à largura */
   max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner pai */
+  border-radius: 10px; /* Adiciona um border-radius de 10px à imagem */
 }
 
 /* Estilo do botão */
@@ -52,13 +53,14 @@ body {
 /* Estilos específicos para telas maiores que 768px */
 @media screen and (min-width: 769px) {
   .imagem {
-    max-width: 768px; /* Limita a largura da imagem a 768px */
-    width: auto; /* Permite que a imagem mantenha a proporção original */
+    max-width: 1400px; /* Ajusta a largura máxima da imagem para 1400px em telas maiores */
+    width: 100%; /* Faz a imagem ocupar 100% da largura do contêiner */
     margin: 0 auto; /* Centraliza a imagem horizontalmente */
   }
   .meu-botao {
     width: 543px; /* Mantém a largura do botão fixa em telas maiores */
   }
 }
+
 
 
