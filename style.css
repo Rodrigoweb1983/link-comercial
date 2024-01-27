@@ -49,6 +49,16 @@ body {
   }
 }
 
-
+/* Estilos específicos para telas maiores que 768px */
+@media screen and (min-width: 769px) {
+  .imagem {
+    max-width: 768px; /* Limita a largura da imagem a 768px */
+    width: auto; /* Permite que a imagem mantenha a proporção original */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
+  .meu-botao {
+    width: 543px; /* Mantém a largura do botão fixa em telas maiores */
+  }
+}
 
 
