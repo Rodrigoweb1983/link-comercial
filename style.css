@@ -22,7 +22,7 @@ body {
 .imagem {
   width: 100%;
   height: auto; /* Isso garante que a altura seja ajustada proporcionalmente à largura */
-  max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner pai */
+  max-width: calc(100% - 20px); /* Garante que a imagem não ultrapasse o tamanho do contêiner pai com uma margem de 10px de cada lado */
   border-radius: 10px; /* Adiciona um border-radius de 10px à imagem */
 }
 
@@ -44,6 +44,7 @@ body {
 @media screen and (max-width: 768px) {
   .imagem {
     width: 100%; /* Define a largura da imagem como 100% da tela em telas menores que 768px */
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner pai em telas menores */
   }
   .meu-botao {
     width: 100%; /* O botão ocupa toda a largura da tela em telas menores */
