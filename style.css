@@ -71,4 +71,12 @@ body {
   }
 }
 
+/* Estilos específicos para telas maiores que 2400px */
+@media screen and (min-width: 2401px) {
+  .imagem {
+    margin: 10px; /* Adiciona margem de 10px */
+    padding: 10px; /* Adiciona padding de 10px */
+  }
+}
+
 
